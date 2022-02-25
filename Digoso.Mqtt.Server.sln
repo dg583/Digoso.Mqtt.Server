@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3460E43F-04CC-4452-9E5D-3ED4B45BD3B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{6CD6F894-4CC6-49FA-83A7-9A184FE2BC0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digoso.Mqtt.Server", "src\Digoso.Mqtt.Server\Digoso.Mqtt.Server.csproj", "{63988F1A-60BB-49DD-AF61-31A4AC56BF84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digoso.Mqtt.Server.Cli", "src\Digoso.Mqtt.Server.Cli\Digoso.Mqtt.Server.Cli.csproj", "{39540B00-258E-4F61-BD1E-71FE9FA8173A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digoso.Mqtt.Server.IntegrationTests", "tst\Digoso.Mqtt.Server.IntegrationTests\Digoso.Mqtt.Server.IntegrationTests.csproj", "{EEF8EC96-F2DE-40D4-A024-98CF0DF14C77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63988F1A-60BB-49DD-AF61-31A4AC56BF84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63988F1A-60BB-49DD-AF61-31A4AC56BF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63988F1A-60BB-49DD-AF61-31A4AC56BF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63988F1A-60BB-49DD-AF61-31A4AC56BF84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39540B00-258E-4F61-BD1E-71FE9FA8173A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39540B00-258E-4F61-BD1E-71FE9FA8173A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39540B00-258E-4F61-BD1E-71FE9FA8173A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39540B00-258E-4F61-BD1E-71FE9FA8173A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF8EC96-F2DE-40D4-A024-98CF0DF14C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF8EC96-F2DE-40D4-A024-98CF0DF14C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF8EC96-F2DE-40D4-A024-98CF0DF14C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF8EC96-F2DE-40D4-A024-98CF0DF14C77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63988F1A-60BB-49DD-AF61-31A4AC56BF84} = {3460E43F-04CC-4452-9E5D-3ED4B45BD3B1}
+		{39540B00-258E-4F61-BD1E-71FE9FA8173A} = {3460E43F-04CC-4452-9E5D-3ED4B45BD3B1}
+		{EEF8EC96-F2DE-40D4-A024-98CF0DF14C77} = {6CD6F894-4CC6-49FA-83A7-9A184FE2BC0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11FE8FE7-2196-48FB-80DA-2F08A60FF421}
+	EndGlobalSection
+EndGlobal
